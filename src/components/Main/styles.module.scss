@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  height: 100vh;
+
+}
+
+@media(max-width: 1080px) {
+  .container {
+    width: 100vw;
+  }
+}

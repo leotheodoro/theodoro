@@ -1,0 +1,28 @@
+.photo {
+  border-radius: 50%;
+  width: 400px;
+  height: 400px;
+  // border: 2px solid #fff;
+}
+
+.box {
+  padding: 0 80px;
+}
+
+.icons {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+
+  svg {
+    margin: 0 20px;
+  }
+
+  a {
+    transition: 0.2s filter;
+  }
+
+  a:hover {
+    filter: brightness(50%);
+  }
+}
